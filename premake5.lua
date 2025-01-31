@@ -45,7 +45,7 @@ project "libtmx"
 		flags { "NoRuntimeChecks", "NoIncrementalLink" }
 		links
 		{
-			"../libxml2/bin/%{cfg.buildcfg}-%{cfg.system}-%{cfg.architecture}/libxml2/libxml2sd"
+			"../libxml2/bin/%{cfg.buildcfg}-%{cfg.system}-%{cfg.architecture}/LibXML/LibXML"
 		}
 
 	filter "configurations:Release"
@@ -53,7 +53,7 @@ project "libtmx"
 		optimize "speed"
 		links
 		{
-			"../libxml2/bin/%{cfg.buildcfg}-%{cfg.system}-%{cfg.architecture}/libxml2/libxml2s"
+			"../libxml2/bin/%{cfg.buildcfg}-%{cfg.system}-%{cfg.architecture}/LibXML/LibXML"
 		}
 
     filter "configurations:Dist"
