@@ -1,0 +1,8 @@
+﻿  tmx.c
+  tmx_err.c
+  tmx_hash.c
+  tmx_mem.c
+  tmx_utils.c
+  tmx_xml.c
+  Generating Code...
+  libtmx.vcxproj -> C:\Programming\AGE\Engine\libs\vendor\tmx\bin\Release-windows-x86_64\libtmx\libtmx.lib
