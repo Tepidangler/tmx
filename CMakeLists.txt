@@ -30,7 +30,8 @@ add_library(tmx
     "src/tmx_hash.c")
 set(HEADERS "src/tmx.h")
 set_target_properties(tmx PROPERTIES VERSION ${BUILD_VERSION})
-
+set_property(TARGET tmx PROPERTY
+        MSVC_RUNTIME_LIBRARY "MultiThreaded$<$<CONFIG:Debug>:Debug>")
 # -- Dependencies
 
 include(CheckIncludeFiles)
